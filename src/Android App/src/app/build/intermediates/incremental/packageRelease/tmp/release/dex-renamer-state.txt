@@ -1,0 +1,4 @@
+#Tue Mar 02 22:55:45 IST 2021
+base.0=/home/karan/AndroidStudioProjects/Picnews2/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

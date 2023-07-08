@@ -1,0 +1,14 @@
+meerkat/picnews/ui/main/GlideOptions.java
+ meerkat.picnews.ui.main.GlideOptions
+com/bumptech/glide/GeneratedRequestManagerFactory.java
+ com.bumptech.glide.GeneratedRequestManagerFactory
+com/bumptech/glide/GeneratedAppGlideModuleImpl.java
+ com.bumptech.glide.GeneratedAppGlideModuleImpl
+meerkat/picnews/ui/main/GlideRequests.java
+ meerkat.picnews.ui.main.GlideRequests
+meerkat/picnews/BuildConfig.java
+ meerkat.picnews.BuildConfig
+meerkat/picnews/ui/main/GlideRequest.java
+ meerkat.picnews.ui.main.GlideRequest
+meerkat/picnews/ui/main/GlideApp.java
+ meerkat.picnews.ui.main.GlideApp

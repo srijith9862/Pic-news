@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "147491934085",
+    "firebase_url": "https://picnews-96ced-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "picnews-96ced",
+    "storage_bucket": "picnews-96ced.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147491934085:android:644356864b12bb00d37eec",
+        "android_client_info": {
+          "package_name": "meerkat.picnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147491934085-vm0e8s56htjn9q1jvrhuli244ov8rnl8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "meerkat.picnews",
+            "certificate_hash": "51245ebedd93ac4d268490a53d719ccfd9b4d6ae"
+          }
+        },
+        {
+          "client_id": "147491934085-m54q89jaec33831b4i71udm0d138v0kk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEOWrhU62Syn00FEjiZqEG59ILDIJsnfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147491934085-m54q89jaec33831b4i71udm0d138v0kk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

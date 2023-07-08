@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.azoft.carousellayoutmanager:carousel:1.4.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02eb7039a244b1bd178da608abdf5618/jetified-carousel-1.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02eb7039a244b1bd178da608abdf5618/jetified-carousel-1.4.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/02eb7039a244b1bd178da608abdf5618/jetified-carousel-1.4.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azoft.carousellayoutmanager/carousel/1.4.4/978338bd006508998545c59872cf7bf733992f3d/carousel-1.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.azoft.carousellayoutmanager/carousel/1.4.4/b2f8aac4e6fc65510132558cc9308894c3cd69a2/carousel-1.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

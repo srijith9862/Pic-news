@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<org.imaginativeworld.whynotimagecarousel.ImageCarousel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:autoWidthFixing="false"
+    android:padding="10dp"
+    android:id="@+id/carousel"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    app:autoPlay="true"
+    app:autoPlayDelay="4000"/>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp"
+    android:orientation="vertical">
+    <!--<ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_launcher_background" />-->
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        app:autoWidthFixing="false"
+        android:padding="10dp"
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:autoPlay="true"
+        app:autoPlayDelay="4000"/>
+</LinearLayout>
+

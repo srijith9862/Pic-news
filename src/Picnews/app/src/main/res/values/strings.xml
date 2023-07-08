@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Picnews</string>
+    <string name="entertainment"><u>Entertainment</u></string>
+    <string name="sport">Sport</string>
+    <string name="politics">Politics</string>
+    <string name="business">business</string>
+    <string name="tech">technology</string>
+    <string name="lorem_ipsum">lorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsumlorem_ipsum</string>
+    <string name="ndtv">ndtv</string>
+    <string name="ht">ht</string>
+    <string name="news18">news18</string>
+    <string name="indian_express">indian_express</string>
+    <string name="gnews">gnews</string>
+</resources>

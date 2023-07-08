@@ -1,0 +1,2 @@
+meerkat/picnews/BuildConfig.java
+ meerkat.picnews.BuildConfig

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_width">90</dimen>
+    <dimen name="layout_height">60</dimen>
+    <dimen name="layout_width_large">135</dimen>
+    <dimen name="layout_height_large">90</dimen>
+</resources>

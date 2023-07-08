@@ -1,0 +1,278 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="meerkat.picnews"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a2e6fc87917661267a494127b3927a42/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a2e6fc87917661267a494127b3927a42/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+14-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+14-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+15
+16    <application
+16-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:7:5-21:19
+17        android:allowBackup="true"
+17-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:8:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.3.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/1f94a4c2bdf88d31742879a8d37fdda3/core-1.3.2/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.Picnews" >
+26-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:13:9-45
+27        <activity android:name="meerkat.picnews.MainActivity" >
+27-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:14:9-20:20
+27-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:14:19-47
+28            <intent-filter>
+28-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:15:13-19:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:16:17-69
+29-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:16:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:18:17-77
+31-->/home/trinadh/IIITH/semester4/DASS/Project/dass-team-15/src/Android App/src/app/src/main/AndroidManifest.xml:18:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:8:9-14:19
+36            android:name="com.google.firebase.components.ComponentDiscoveryService"
+36-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:9:13-84
+37            android:directBootAware="true"
+37-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+38            android:exported="false" >
+38-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:10:13-37
+39            <meta-data
+39-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:11:13-13:85
+40                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+40-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:12:17-126
+41                android:value="com.google.firebase.components.ComponentRegistrar" />
+41-->[com.google.firebase:firebase-analytics-ktx:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/74e8d4eeab9c41f100d2d57b5eee2880/jetified-firebase-analytics-ktx-18.0.2/AndroidManifest.xml:13:17-82
+42            <meta-data
+42-->[com.google.firebase:firebase-firestore-ktx:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/7b2c2fa5a94ea428c65efe9f7ddba50c/jetified-firebase-firestore-ktx-22.1.0/AndroidManifest.xml:15:13-17:85
+43                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+43-->[com.google.firebase:firebase-firestore-ktx:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/7b2c2fa5a94ea428c65efe9f7ddba50c/jetified-firebase-firestore-ktx-22.1.0/AndroidManifest.xml:16:17-126
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-firestore-ktx:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/7b2c2fa5a94ea428c65efe9f7ddba50c/jetified-firebase-firestore-ktx-22.1.0/AndroidManifest.xml:17:17-82
+45            <meta-data
+45-->[com.google.firebase:firebase-auth-ktx:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/714dd4dcb17ed3c4d38f004e963cc593/jetified-firebase-auth-ktx-20.0.2/AndroidManifest.xml:11:13-13:85
+46                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+46-->[com.google.firebase:firebase-auth-ktx:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/714dd4dcb17ed3c4d38f004e963cc593/jetified-firebase-auth-ktx-20.0.2/AndroidManifest.xml:12:17-116
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-auth-ktx:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/714dd4dcb17ed3c4d38f004e963cc593/jetified-firebase-auth-ktx-20.0.2/AndroidManifest.xml:13:17-82
+48            <meta-data
+48-->[com.google.firebase:firebase-common-ktx:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ce888931d247ec920165f8a6a12cfa5c/jetified-firebase-common-ktx-19.5.0/AndroidManifest.xml:15:13-17:85
+49                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+49-->[com.google.firebase:firebase-common-ktx:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ce888931d247ec920165f8a6a12cfa5c/jetified-firebase-common-ktx-19.5.0/AndroidManifest.xml:16:17-113
+50                android:value="com.google.firebase.components.ComponentRegistrar" />
+50-->[com.google.firebase:firebase-common-ktx:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ce888931d247ec920165f8a6a12cfa5c/jetified-firebase-common-ktx-19.5.0/AndroidManifest.xml:17:17-82
+51            <meta-data
+51-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:77:13-79:85
+52                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+52-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:78:17-109
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:79:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-firestore:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f181cf1fbe967d4801ad3a4af7a2d80e/jetified-firebase-firestore-22.1.0/AndroidManifest.xml:20:13-22:85
+55                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+55-->[com.google.firebase:firebase-firestore:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f181cf1fbe967d4801ad3a4af7a2d80e/jetified-firebase-firestore-22.1.0/AndroidManifest.xml:21:17-111
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-firestore:22.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f181cf1fbe967d4801ad3a4af7a2d80e/jetified-firebase-firestore-22.1.0/AndroidManifest.xml:22:17-82
+57            <meta-data
+57-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a2e6fc87917661267a494127b3927a42/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+58                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+58-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a2e6fc87917661267a494127b3927a42/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.android.gms:play-services-measurement-api:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a2e6fc87917661267a494127b3927a42/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+60            <meta-data
+60-->[com.google.firebase:firebase-installations:16.3.5] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a71725f0a2130d56dd070ce32b2e987e/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+61                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+61-->[com.google.firebase:firebase-installations:16.3.5] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a71725f0a2130d56dd070ce32b2e987e/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-installations:16.3.5] /home/trinadh/.gradle/caches/transforms-2/files-2.1/a71725f0a2130d56dd070ce32b2e987e/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+63            <!--
+64                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+65                clients to use it as well, by defining this registrar in their own core/common library.
+66            -->
+67            <meta-data
+67-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+68                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+68-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+70        </service>
+71
+72        <activity
+72-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:27:9-44:20
+73            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+73-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:28:13-80
+74            android:excludeFromRecents="true"
+74-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:29:13-46
+75            android:exported="true"
+75-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:30:13-36
+76            android:launchMode="singleTask"
+76-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:31:13-44
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+77-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:32:13-72
+78            <intent-filter>
+78-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:33:13-43:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+79-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+81-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+82-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+83
+84                <data
+84-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+85                    android:host="firebase.auth"
+85-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+86                    android:path="/"
+86-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+87                    android:scheme="genericidp" />
+87-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+88            </intent-filter>
+89        </activity>
+90        <activity
+90-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:45:9-62:20
+91            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+91-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:46:13-79
+92            android:excludeFromRecents="true"
+92-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:47:13-46
+93            android:exported="true"
+93-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:48:13-36
+94            android:launchMode="singleTask"
+94-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:49:13-44
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+95-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:50:13-72
+96            <intent-filter>
+96-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:51:13-61:29
+97                <action android:name="android.intent.action.VIEW" />
+97-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:17-69
+97-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:34:25-66
+98
+99                <category android:name="android.intent.category.DEFAULT" />
+99-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+99-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+100                <category android:name="android.intent.category.BROWSABLE" />
+100-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:17-78
+100-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:37:27-75
+101
+102                <data
+102-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:39:17-42:51
+103                    android:host="firebase.auth"
+103-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:40:21-49
+104                    android:path="/"
+104-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:41:21-37
+105                    android:scheme="recaptcha" />
+105-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:42:21-48
+106            </intent-filter>
+107        </activity>
+108
+109        <service
+109-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:64:9-73:19
+110            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+110-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:65:13-101
+111            android:enabled="true"
+111-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:66:13-35
+112            android:exported="false" >
+112-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:67:13-37
+113            <intent-filter>
+113-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:68:13-72:29
+114                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+114-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:17-89
+114-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:69:25-86
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:17-76
+116-->[com.google.firebase:firebase-auth:20.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/f7563cd2a6a9671f1f94f9be9336c1bb/jetified-firebase-auth-20.0.2/AndroidManifest.xml:36:27-73
+117            </intent-filter>
+118        </service>
+119
+120        <provider
+120-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+121            android:name="com.google.firebase.provider.FirebaseInitProvider"
+121-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+122            android:authorities="meerkat.picnews.firebaseinitprovider"
+122-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+124            android:exported="false"
+124-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+125            android:initOrder="100" />
+125-->[com.google.firebase:firebase-common:19.5.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/ae2f92689330c0b3f959376548f2eea6/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+126
+127        <activity
+127-->[com.google.android.gms:play-services-base:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/1259ee2a8bca3b1cf71d7c6437ea10fd/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+128            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+128-->[com.google.android.gms:play-services-base:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/1259ee2a8bca3b1cf71d7c6437ea10fd/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+129            android:exported="false"
+129-->[com.google.android.gms:play-services-base:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/1259ee2a8bca3b1cf71d7c6437ea10fd/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+130            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+130-->[com.google.android.gms:play-services-base:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/1259ee2a8bca3b1cf71d7c6437ea10fd/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+131
+132        <receiver
+132-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+133            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+133-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+135            android:exported="false" >
+135-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+136        </receiver>
+137
+138        <service
+138-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+139            android:name="com.google.android.gms.measurement.AppMeasurementService"
+139-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+140            android:enabled="true"
+140-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+141            android:exported="false" />
+141-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+142        <service
+142-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+143            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+143-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+144            android:enabled="true"
+144-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+146            android:permission="android.permission.BIND_JOB_SERVICE" />
+146-->[com.google.android.gms:play-services-measurement:18.0.2] /home/trinadh/.gradle/caches/transforms-2/files-2.1/2d42a4324e0d7e2b6c38b7e1284e4258/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/6a6b22940d35a971b80534b279b42ad0/jetified-play-services-basement-17.1.0/AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/6a6b22940d35a971b80534b279b42ad0/jetified-play-services-basement-17.1.0/AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.1.0] /home/trinadh/.gradle/caches/transforms-2/files-2.1/6a6b22940d35a971b80534b279b42ad0/jetified-play-services-basement-17.1.0/AndroidManifest.xml:25:13-66
+151    </application>
+152
+153</manifest>

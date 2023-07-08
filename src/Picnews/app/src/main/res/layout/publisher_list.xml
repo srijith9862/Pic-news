@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.recyclerview.widget.RecyclerView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+<!--        <LinearLayout android:orientation="vertical"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="200dp">-->
+
+<!--            <org.imaginativeworld.whynotimagecarousel.ImageCarousel-->
+<!--                app:autoWidthFixing="false"-->
+<!--                android:padding="10dp"-->
+<!--                android:id="@+id/carousel"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                app:autoPlay="true"-->
+<!--                app:autoPlayDelay="4000"/>-->
+
+<!--            <TextView android:text="@string/ndtv"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout android:orientation="vertical"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="200dp">-->
+
+<!--            <org.imaginativeworld.whynotimagecarousel.ImageCarousel-->
+<!--                app:autoWidthFixing="false"-->
+<!--                android:padding="10dp"-->
+<!--                android:id="@+id/carousel2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                app:autoPlay="true"-->
+<!--                app:autoPlayDelay="3000"/>-->
+
+<!--            <TextView android:text="@string/ht"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout android:orientation="vertical"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="200dp">-->
+
+<!--            <org.imaginativeworld.whynotimagecarousel.ImageCarousel-->
+<!--                app:autoWidthFixing="false"-->
+<!--                android:padding="10dp"-->
+<!--                android:id="@+id/carousel3"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                app:autoPlay="true"-->
+<!--                app:autoPlayDelay="5000"-->
+<!--                tools:ignore="DuplicateIds" />-->
+
+<!--            <TextView android:text="@string/news18"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+
+<!--        <LinearLayout android:orientation="vertical"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="200dp">-->
+
+<!--            <org.imaginativeworld.whynotimagecarousel.ImageCarousel-->
+<!--                app:autoWidthFixing="false"-->
+<!--                android:padding="10dp"-->
+<!--                android:id="@+id/carousel4"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                app:autoPlay="true"-->
+<!--                app:autoPlayDelay="5000"/>-->
+
+<!--            <TextView android:text="@string/indian_express"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--        <LinearLayout android:orientation="vertical"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:visibility="gone"-->
+<!--            android:layout_weight="1"-->
+<!--            android:layout_height="200dp">-->
+
+<!--            <org.imaginativeworld.whynotimagecarousel.ImageCarousel-->
+<!--                app:autoWidthFixing="false"-->
+<!--                android:padding="10dp"-->
+<!--                android:id="@+id/carousel5"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="180dp"-->
+<!--                app:autoPlay="true"-->
+<!--                app:autoPlayDelay="5000"/>-->
+
+<!--            <TextView android:text="@string/gnews"-->
+<!--                android:textStyle="bold"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textColor="#000"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--        </LinearLayout>-->
+
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+

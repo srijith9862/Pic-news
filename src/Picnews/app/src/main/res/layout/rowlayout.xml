@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp">
+
+    <TextView android:visibility="gone"
+        android:id="@+id/item_name"
+        android:text="Publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#fff" />
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:layout_below="@id/item_name"
+        app:showIndicator="false"
+        app:autoWidthFixing="false"
+        app:showNavigationButtons="true"
+        app:showCaption="true"
+        android:padding="10dp"
+        android:id="@+id/carousel"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:autoPlay="true"
+        app:autoPlayDelay="4000"/>
+
+    <TextView android:layout_below="@id/carousel"
+        android:ellipsize="end"
+        android:id="@+id/item_title"
+        android:text="Publisher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="#130202" />
+
+
+</RelativeLayout>

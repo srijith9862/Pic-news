@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Picnews</string>
+    <string name="sports">sports</string>
+    <string name="app_name_shivanshu">Introduction</string>
+    <string name="sports_2">Sports</string>
+    <string name="economy">Economy</string>
+    <string name="politics">Politics</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="technology">Technology</string>
+    <string name="food">Food</string>
+    <string name="feed">Feed</string>
+    <string name="premium">Premium</string>
+</resources>
